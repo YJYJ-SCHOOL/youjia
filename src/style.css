@@ -1,0 +1,24 @@
+@import "tailwindcss";
+
+@theme {
+  --color-sun: #F59E0B;
+  --color-sun-light: #FEF3C7;
+  --color-sky: #0EA5E9;
+  --color-sky-light: #E0F2FE;
+  --color-coral: #F43F5E;
+  --color-coral-light: #FFE4E6;
+  --color-mint: #10B981;
+  --color-mint-light: #D1FAE5;
+  --color-cream: #FFF8F0;
+  --color-card: #FFFFFF;
+}
+
+body {
+  margin: 0;
+  background: var(--color-cream);
+  font-family: 'Noto Sans SC', system-ui, -apple-system, sans-serif;
+}
+
+#app {
+  min-height: 100vh;
+}
